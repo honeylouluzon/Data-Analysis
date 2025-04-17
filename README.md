@@ -1,6 +1,7 @@
 # Measurement Phase of Lean Six Sigma
 
 This project demonstrates the Measurement Phase of the Lean Six Sigma methodology, focusing on data generation, control charting, and process capability analysis using Python. It includes two dataset sourcing options and applies key statistical tools used in quality improvement initiatives.
+This was created the time I currently having my training in Yellow Belt Lean Six Sigma Certification by MF OpEx of Prof. Marcelo Machado Fernandes
 
 ## Project Overview
 
