@@ -72,3 +72,17 @@ Explores defect rates through:
 ### How to Use
 
 Clone the repository and run the notebook in a Jupyter or Colab environment. Choose the preferred data input method and explore how the control charts and capability analysis adapt to varying process behavior.
+
+### Deploying the Web One-Pager
+
+The `app/` directory contains a responsive HTML summary of the notebook.
+
+- **Preview locally:**
+  1. Open a terminal in the repository root.
+  2. Run `python -m http.server`.
+  3. Visit `http://localhost:8000/app/` in your browser.
+
+- **Host with GitHub Pages:**
+  1. Commit and push the repository to GitHub.
+  2. In the repository settings, enable GitHub Pages and choose the `main` branch.
+  3. Set the site root to `/` so the `app/` directory is published at `https://<username>.github.io/<repository>/app/`.
