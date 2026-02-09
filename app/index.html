@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurement Phase Overview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Measurement Phase of Lean Six Sigma</h1>
+        <p>Simulate data collection, evaluate process behavior, and assess capability through Python-powered visualizations and statistical insights.</p>
+        <nav class="primary-nav">
+            <a href="#overview">Overview</a>
+            <a href="#dataset-options">Dataset Options</a>
+            <a href="#control-charts">Control Charts</a>
+            <a href="#capability-analysis">Capability Analysis</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="card">
+            <h2>Project Overview</h2>
+            <p>This project demonstrates the Measurement Phase of the Lean Six Sigma methodology, focusing on data generation, control charting, and process capability analysis using Python.</p>
+            <p>The goal of this activity is to simulate data collection, evaluate process behavior, and assess capability through Python-powered visualizations and statistical insights.</p>
+        </section>
+
+        <section id="dataset-options" class="card">
+            <h2>Dataset Options</h2>
+            <p>You can work with the data in two ways:</p>
+            <ul>
+                <li><strong>Option 1:</strong> Generate a random dataset by specifying column names and their value ranges.</li>
+                <li><strong>Option 2:</strong> Load an external dataset from a CSV file.</li>
+            </ul>
+            <p>The dataset includes metrics such as Delivery Time, Sample Size, and Defective Units. Data manipulation features allow you to dynamically add or remove rows for simulation and training purposes.</p>
+        </section>
+
+        <section id="control-charts" class="card">
+            <h2>Control Charts</h2>
+            <article>
+                <h3>Variable Chart (I-Chart)</h3>
+                <p>This chart is used for analyzing individual data points and helps in identifying process shifts, detecting outliers, and determining the stability of the process.</p>
+                <div class="chart-placeholder" aria-hidden="true">Variable Chart Placeholder</div>
+            </article>
+            <article>
+                <h3>Attribute Chart (P-Chart)</h3>
+                <p>The attribute chart evaluates the proportion of defective units, assesses statistical control of categorical outcomes, and visualizes control limits and stability remarks.</p>
+                <div class="chart-placeholder" aria-hidden="true">Attribute Chart Placeholder</div>
+            </article>
+        </section>
+
+        <section id="capability-analysis" class="card">
+            <h2>Capability Analysis</h2>
+            <article>
+                <h3>Normal Distribution</h3>
+                <p>Use this report to assess normality, calculate Z-scores, and identify the sigma level that reflects performance capability.</p>
+                <div class="chart-placeholder" aria-hidden="true">Normal Distribution Placeholder</div>
+            </article>
+            <article>
+                <h3>Binomial Distribution</h3>
+                <p>Explore defect rates through cumulative defect percentages, rate of defectives per sample, and histograms of distribution to evaluate process sigma based on target limits.</p>
+                <div class="chart-placeholder" aria-hidden="true">Binomial Distribution Placeholder</div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Tools &amp; Libraries: Python, pandas, matplotlib, numpy, scipy.stats</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
